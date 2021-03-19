@@ -1,0 +1,313 @@
+@font-face {
+  font-family: FraktionMono-Bold;
+  src: url("fonts/FraktionMono-Bold.otf");
+}
+
+@font-face {
+  font-family: FraktionMono-Regular;
+  src: url("fonts/FraktionMono-Regular.otf");
+}
+
+@font-face {
+  font-family: NeueMachina-Ultrabold;
+  src: url("fonts/NeueMachina-Ultrabold.otf");
+}
+
+@font-face {
+  font-family: NeueMachina-Regular;
+  src: url("fonts/NeueMachina-Regular.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  background: #7c7d73;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7c7d73;
+}
+
+.websiteContainer {
+  height: 100%;
+  width: 100%;
+  max-width: 602px;
+
+}
+
+.headerContainer {
+  position: fixed;
+  z-index: 2;
+  background-color: #7c7d73;
+  padding-top: 24px;
+  height: 64px;
+  width: 100%;
+  max-width: 602px;
+  border-bottom: 1px solid black;
+  text-align: left;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.headerText {
+  padding-left: 24px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: -1px;
+  font-family: NeueMachina-Ultrabold;
+}
+
+#homeDisplayContainer {
+  width: 100%;
+  max-width: 602px;
+  height: 602px;
+  position: fixed;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding-top: 180px;
+  font-family: NeueMachina-Ultrabold;
+  font-size: 36px;
+  line-height: 20px;
+
+
+}
+
+#canvasContainer {
+  position: fixed;
+  top: 64px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+}
+
+.introductionContainer {
+  border-top: 1px solid black;
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: block;
+  top: 384px;
+  background-color: #7c7d73;
+  text-align: left;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.introductionText {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  width: 92%;
+  font-family: FraktionMono-Regular;
+  letter-spacing: -1px;
+  font-size: 18px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  line-height: 24px;
+}
+
+.introductionTextAlt {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  width: 92%;
+  font-family: FraktionMono-Bold;
+  letter-spacing: -1.6px;
+  font-size: 20px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  line-height: 24px;
+}
+
+.mainPageButton {
+  background-color: #7c7d73;
+  color: black;
+  cursor: pointer;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  border-top: 1px solid black;
+  font-family: FraktionMono-Bold;
+  letter-spacing: -1.6px;
+  vertical-align: middle;
+}
+
+.mainPageButtonInactive {
+  background-color: #7c7d73;
+  color: #565751;
+  cursor: pointer;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  border-top: 1px solid black;
+  font-family: FraktionMono-Bold;
+  letter-spacing: -1.6px;
+  vertical-align: middle;
+}
+
+.nextButton {
+  background-color: #7c7d73;
+  color: black;
+  cursor: pointer;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 18px;
+  width: 100%;
+  border: none;
+  text-align: right;
+  outline: none;
+  font-size: 20px;
+  border-top: 1px solid black;
+  font-family: FraktionMono-Bold;
+  letter-spacing: -1.6px;
+  vertical-align: middle;
+}
+
+.previousButton {
+  background-color: #7c7d73;
+  color: black;
+  cursor: pointer;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  border-top: 1px solid black;
+  font-family: FraktionMono-Bold;
+  letter-spacing: -1.6px;
+  vertical-align: middle;
+}
+
+
+.collapsibleContainer {
+  display: block;
+  width: 100%;
+  max-width: 602px;
+  position: relative;
+  top: 384px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.collapsible {
+  background-color: #7c7d73;
+  color: black;
+  cursor: pointer;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  border-top: 1px solid black;
+  font-family: FraktionMono-Bold;
+  letter-spacing: -1.6px;
+  vertical-align: middle;
+}
+
+.active, .collapsible:hover {
+
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  width: auto;
+  padding: 0 24px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  text-align: left;
+  font-size: 18px;
+  font-family: FraktionMono-Regular;
+  line-height: 22px;
+  letter-spacing: -0.5px;
+  background-color: #7c7d73;
+}
+
+.contentContainer {
+  padding-top: 16px;
+  padding-bottom: 36px;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  line-height: 24px;
+}
+
+#lastCollapsibleContent {
+  border-bottom: 1px solid black;
+}
+
+.whiteSpace {
+  position: relative;
+  height: 120px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .headerContainer {
+    border-left: 1px solid #7c7d73;
+    border-right: 1px solid #7c7d73;
+  }
+
+  #homeDisplayContainer {
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+
+  }
+
+  #canvasContainer {
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+
+  }
+
+
+
+  .introductionContainer {
+    border-left: 1px solid #7c7d73;
+    border-right: 1px solid #7c7d73;
+  }
+
+  .collapsibleContainer {
+    border-left: 1px solid #7c7d73;
+    border-right: 1px solid #7c7d73;
+  }
+
+}

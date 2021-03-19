@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  </head>
+  <body>
+    <center>
+    <div class="websiteContainer">
+      <div class="headerContainer">
+        <a  class="headerText"href="index.html">ARS AUTOMATA</a>
+      </div>
+      <div id="canvasContainer"></div>
+
+      <center>
+        <div class="collapsibleContainer">
+          <button class="collapsible">Preface</button>
+          <div class="content">
+            <div class="contentContainer">
+              1. Do you believe in a god?
+      <br><br>2. Cellular automata is a model of computation that is self-propelling. Simply put, a cellular automaton is a grid of cells where each cell is classified as one of two states: zero or one. Each cell is programmed to automatically compute based on the status of other neighboring cells according to a predetermined set of rules.
+      <br><br>3. Determinism, or more namely causal determinism is “the idea that every event is necessitated by antecedent events and conditions together with the laws of nature.” (Hoefer) Under this idea, our thoughts and decisions are never really ours alone. I am sharing these writings with you, reader, because in many ways, they are also yours.
+      <br><br>4. I have never thought of myself as someone who participates in religion and worship. To this day I still don't consider myself to be a religious person in the vernacular sense. However, I have also recently began to understand humanity’s current paradigm of thinking as sort of hyper-rational, as to look down on any and all forms of religion, spirituality, metaphysics, and anything else that does not follow the time’s empirical way of thinking. In his <i> Enquiry Concerning Human Understanding </i> (1748) Hume concludes: “If we take in our hand any volume [book]; of divinity or school metaphysics, for instance; let us ask, Does it contain any abstract reasoning concerning quantity or number? No. Does it contain any experimental reasoning concerning matter of fact and existence? No. Commit it then to the flames: for it can contain nothing but sophistry and illusion.” (Hume) Intellectually, I am inclined to agree with him and the current paradigm of thinking. In so far that my interests, morals, and ideas have all been undeniably influenced by naturalist philosophy to some extent. However, despite my ongoing fascination with this line of thinking, I am not entirely happy with my belief; How it tells me that I am essentially a cell.
+      <br><br>5. When I am talking about art, I am not talking about communication or language. I am talking about poetry. Words just happen to be the medium, not the source. What does your art <i>do</i> then? I don’t entirely know quite yet.
+      <br><br>6. I ask you, reader, to understand that I am not writing to argue. Do not make the mistake of thinking that my words are criticisms. These writings are simply observations. They are selfish, self-involved, and sad. I am writing in hopes that in doing so, I am inadvertently creating art; That like you, I too am reading my words in hopes that I will learn to see them as such.
+      </p><br>
+            </div>
+          </div>
+          <button class="collapsible">Proposition 1</button>
+          <div class="content">
+            <div class="contentContainer">
+                <p>
+                  A. if (state == 0 && neighbors == 3) {<br>
+                    nextGeneration[x][y] = 1;<br>
+                  }
+                </p><br>
+                <p>
+                  B. else if (state == 1 && (neighbors < 2 || neighbors > 3)) {<br>
+                    nextGeneration[x][y] = 0;<br>
+                  }
+                </p><br>
+                <p>
+                  C. else {<br>
+                    nextGeneration[x][y] = state;<br>
+                  }
+                </p>
+            </div>
+          </div>
+          <button class="collapsible">Proposition 2</button>
+          <div class="content">
+            <div class="contentContainer">
+                <p>
+                  A. Status 0 cells with exactly three Status 1 neighbor cells will become Status 1 cells in the next generation.
+                </p><br>
+                <p>
+                  B. Status 1 cells with less than two or more than three Status 1 neighbor cells will become Status 0 cells in the next generation.
+                </p><br>
+                <p>
+                  C. Cells that do not meet any mentioned criteria will maintain their respective status' in the next generation.
+                </p>
+            </div>
+          </div>
+          <button class="collapsible">Proposition 3</button>
+          <div class="content">
+            <div class="contentContainer">
+                <p>
+                  A. Dead cells with exactly three live neighbors will become live cells in the next generation. These neighboring cells are the things the cell needs to live.
+                </p><br>
+                <p>
+                  B. Live cells with less than two or more than three live neighbors will die in the next generation.
+                  This is referred to as either underpopulation or overcrowding respectively.
+                  They have starved to death.
+                </p><br>
+                <p>
+                  C. Cells of any status that do not meet any mentioned criteria will maintain their respective status' in the next generation.
+                </p>
+            </div>
+          </div>
+          <button class="collapsible">Proposition 4</button>
+          <div class="content">
+            <div class="contentContainer">
+
+              <p>
+                A. But what exactly does a cell need to live?
+              </p><br>
+                <p>
+                  B. What is happening to a cell when one of the three neighboring cells required to continue living dies? Not necessarily what the outcome is but rather what happens in that interim between the neighbor dying and the cell itself dying?
+                </p><br>
+                <p>
+                  C. Does it stay still? Stay still knowing that by doing so, it will also have died then, in that moment? Or does it try to find a new neighbor to fill that once occupied space?
+                </p>
+
+            </div>
+          </div>
+          <button class="collapsible">Proposition 5</button>
+          <div class="content">
+            <div class="contentContainer">
+
+              <p>
+                A. Wikipedia tells me that “self organization, or spontaneous order, is a process where some form of overall order arises from local interactions between parts of an initially disordered system.” (Wikipedia)
+              </p><br>
+              <p>
+                B. Pharmakon is famous for the fact that it remains undecided as to whether it means cure or poison. But what if the cure is poison? This question leads me to a lesser known third definition of the word: a scapegoat.
+              </p><br>
+              <p>
+                C. Our bodies will tell us what we need. If we listen closely, it will tell us what is healthy, what it hurting, and what is missing. My body will tell me all these things in part to indirectly remind me that really, I am just a body. Simply, that my life is essentially a process of homeostasis. The things our body tells us we need are called symptoms. We don’t like symptoms. We’re always trying to minimize them in any and all forms as if they had a finite amount that could be slowly reduced to nothing. Sometimes, I wonder if what we should really be doing is learning to simply look at these symptoms and nod. To let things fall apart, reorganize, reconstruct only to fall apart again and to watch it all unfold in front of us with popcorn and soda.
+              </p>
+
+            </div>
+          </div>
+          <button class="collapsible">Proposition 6</button>
+          <div class="content">
+            <div class="contentContainer">
+              <p>
+                A. I am utterly anxiety ridden. As I am writing this, I have been recommended by both my therapist and physician to begin seeing a psychiatrist; For medication and for a formal diagnosis of my apparent OCD symptoms. I do not like this idea. I especially do not like pills, not because I have trouble swallowing them, but because I have long prided myself on my independence and hate the idea of relying on a pill to achieve a sound state of mind. In reality, this independence eludes me, as I have come to understand that most, if not everything I do is an attempt at reaching for something to depend on. I am reaching for food. I am reaching for love. I am reaching for a bottle of Prozac.
+              </p><br>
+                <p>
+                  B. The definition of anxiety is, in part, the definition of uncertainty as one does not experience anxiety without it. At first, it may feel instinctive to go looking for answers, but this is like adding fuel to a fire. What may initially look like water reveals itself to be gasoline.
+                </p><br>
+                <p>
+                  C. On a Facetime call with a friend of mine, she is telling me about her frustration with a particular assignment of hers. One of the classes she had enrolled in this semester is a class taught by the philosopher Tyler Burge. The particular assignment my friend was referring to was to write an essay on Burge’s theory of anti-individualism and its relationship to perception. She tells me that she doesn’t even entirely understand what Burge’s theory is about and is pulling hairs thinking about it. I asked her why she’d enrolled in such a class. Her answer was that, despite her apparent unhappiness, she felt that the class changed the way she looked at things. I can no longer share this attitude with her. In the face of my anxiety, I have learned the hard way that no amount of philosophical inquiry can ever stop me from feeling. One can’t win an argument with the irrational. One cannot answer questions with more questions. I have sadistically drowned myself in the word vomit of some of humanity’s most admired philosophers, from Zizek to Murdoch to Kant. Painfully drinking the Kool-Aid not out of having been persuaded, but wishing that I could have been. I am not seeking truth in the aesthetic, the moral, the economic, or the linguistic; I am seeking anxiety relief. That is my dirty secret.
+                </p>
+            </div>
+          </div>
+          <button class="collapsible">Proposition 7</button>
+          <div class="content">
+            <div class="contentContainer">
+              <p>
+                A. Exactly three cells are needed to bring a dead cell to life. This process is referred to as reproduction in Conway’s Game of Life. Why three?
+              </p><br>
+                <p>
+                  B. Prehistoric hunter-gatherer societies were usually groups of a few dozens of people and could be seen as several family units working with one another. At some point, families, and hence individuals, discovered that they had a better chance of survival if they worked cooperatively with others.
+                </p><br>
+                <p>
+                  C. In recent US history, there has been a dramatic increase nationwide in gay marriages, adoptions, polyamorous relationships, and single parent households. The idea of what constitutes a family has been endlessly deconstructed, redefined, and then deconstructed again. How do we determine who is a part of our family? How do we know which spaces to fill? How many are there? I am ashamed to say that I was once compelled by these questions. I am trying to give up.
+                </p>
+            </div>
+          </div>
+            <button class="collapsible">Proposition 8</button>
+            <div class="content">
+              <div class="contentContainer">
+                <p>
+                  A. When I think of my father, I cannot say that he didn’t love me. Rather, I think of how he was never really here with me. Those close to me have told me that I am excessively self-critical, emotionally unavailable, and overly strict. I have come to understand that these observations are true, more or less. I guess this is my way of becoming my own sort of makeshift father. Makeshift.
+                </p><br>
+                  <p>
+                    B. In a therapy session I bring up that I've been wallowing in self hatred towards the fact that I happen to only be interested in dating older men. My therapist rhetorically asks me: "Well who wouldn't want a strong, caring, and supportive figure in their life?” I want to say that not all older men are fatherly, and not all fatherly figures want sons.
+                  </p><br>
+                  <p>
+                    C. I once met up with a man slightly more than double my age at his San Francisco apartment for a sort of ‘semi-date'. We're talking on the roof terrace and I remember asking him, rather bluntly: What exactly did he want in meeting me today? I correctly assumed at least part of his answer. In hindsight the question may have come off as rude, but I didn't ask so I could mentally shame him for wanting to have sex with a younger man, presumably me in this case. I asked because I wondered if there were men out there, older gay men in particular, who have what I now call 'son issues.’ A sort of 'daddy issues' in reverse. Later, when I Google'd the term, Urban Dictionary confirmed that this idea is indeed a thing. How common, I'm not sure. I guess I just wanted to know if he too felt that there was something missing and sought to fill it. I don't need anyone to '@' me for meeting with older men, I'm aware of how naive I am being. But the fact remains that my fatherlessness has left me a house made of sticks. Who can blame me for wanting to find some glue?
+                  </p>
+              </div>
+            </div>
+
+              <button class="collapsible">Proposition 9</button>
+              <div class="content">
+                <div class="contentContainer">
+                  <p>
+                    A. Many of my friends are currently attending a variety of prestigious colleges. I am happy for them, genuinely. However, I’d be lying if I said that this fact hadn’t planted within me a deep resentment towards myself. This resentment fueled me endlessly, towards my goals and towards my unhappiness. Both. But how can it be both?
+                  </p><br>
+                    <p>
+                      B. The words "absolute fuck-up” have never sounded so clearly to me than when I was taking a gap year before college. I always imagined the words being shouted at me by someone like J.K. Simmons’ character in <i>Whiplash</i>: viscerally anxiety inducing to an almost sadistic degree. When RISD accepted me into their class of 2024, I couldn’t afford attending without taking on loans in the hundreds of thousands. I didn’t go. At this point, prestige becomes a lifeline, a drug, and as long as I am obsessed with it, a whip.
+                    </p><br>
+                    <p>
+                      C.  My solution then, was to begin playing a game I jokingly called “Collecting the Ivy League” in which I would date men who had graduated from prestigious universities. I met men who had graduated from Harvard, Yale, UPenn, and entertained the idea of meeting others who graduated from similarly ranked universities. Unaware, or perhaps in denial of, the idea that I was essentially commodifying myself for these men, as if doing so would metaphysically transfer their perceived prestige to me. Perhaps it was a sort of transaction, a commodification of each other from both ends. This is emptiness trying to fill itself with more emptiness. 
+                    </p>
+                </div>
+              </div>
+
+                <button class="collapsible">Proposition 10</button>
+                <div class="content">
+                  <div class="contentContainer">
+                    <p>
+                      A. grid[x][y] = 1;
+                    </p><br>
+                      <p>
+                        B. grid[x + 1][y] = 1;
+                      </p><br>
+                      <p>
+                        C. grid[x + 2][y] = 1;
+                      </p>
+                  </div>
+                </div>
+
+                <button class="collapsible">Proposition 11</button>
+                <div class="content">
+                  <div class="contentContainer">
+                    <p>
+                      A. Set the cell at coordinates (x, y) to 1.
+                    </p><br>
+                      <p>
+                        B. Set the cell at coordinates (x + 1, y) to 1.
+                      </p><br>
+                      <p>
+                        C. Set the cell at coordinates (x + 2, y) to 1.
+                      </p>
+                  </div>
+                </div>
+
+                  <button class="collapsible">Proposition 12</button>
+                  <div class="content">
+                    <div class="contentContainer">
+                      <p>
+                        A. Picture a series of three cells next to one another, forming a short line pointed horizontally or vertically and isolated from any other cells that may have otherwise interfered. This arrangement allows these cells to infinitely compute between two positions, horizontally then vertically, then horizontally, and so forth. This particular pattern is called a ‘blinker.’ Blinkers are but one of the many ‘oscillators’ in the Game of Life: patterns of cells that oscillate between two states indefinitely.
+                      </p><br>
+                        <p>
+                          B. In The Game of Life, a ‘still life’ is any pattern of cells that no longer changes from one generation to the next.  In this arrangement, these cells cannot die or form new cells; They exist in a perpetual stillness, hence the name. However, the term ‘still life’ implies a sort of paradox, as it isn’t entirely clear if they are actually alive. What happens to a cell when it constantly has the required neighboring cells to live?
+                        </p><br>
+                        <p>
+                          C. My mother once told me that she had met a woman in her late adulthood who told her that she and her two sisters have lived together for their entire lives. None of them had ever married, and they are all happy. Despite their various ailments and disabilities, they support each other in anyway they can. I find their relationship to be very beautiful for reasons not entirely clear to me; That these three siblings are able to be everything for one another or that they are able to look for meaning beyond one another.
+                        </p>
+                    </div>
+                  </div>
+
+                    <button class="collapsible">Proposition 13</button>
+                    <div class="content">
+                      <div class="contentContainer">
+                        <p>
+                          A. As I write this, my grandfather is in the hospital due to his severe dementia and a recent stroke. His preexisting physical disabilities have left him totally bed-ridden, almost completely unable to move anything other than his arms and his neck.
+                        </p><br>
+                          <p>
+                            B. My family and I are unable to visit my grandfather in the hospital due to COVID-19. Instead, we now visit him over Zoom in rectangular boxes on an iPad screen attached to an IV pole. On most days he is indifferent towards our presence over Zoom. On other days, I will greet him and and he will spin his head towards his iPad screen, smile, and then put one of his hands forward from his bed as if to reach out to me. After a few seconds he will return to his original position as if he never saw me, paying no mind to my presence until I greet him again, after which this process will repeat itself. I have done this for hours, not because I have any hope of him regaining a piece of his former self, but simply because he seems so happy when I do.
+                          </p><br>
+                          <p>
+                            C. How this entire process tells me that my grandfather is still present and still here with me; That his repeated reaching is beautiful.
+                          </p>
+                      </div>
+                    </div>
+
+          <button class="previousButton" style="color: #565751" id="lastCollapsibleContent">More to be added</button>
+
+          <div class="whiteSpace"></div>
+          <div class="whiteSpace"></div>
+
+        </div>
+      </center>
+
+    </div>
+
+
+
+    <script src="p5.js" charset="utf-8"></script>
+    <script src="p5.min.js" charset="utf-8"></script>
+    <script src="sketch.js" charset="utf-8"></script>
+    <script type="text/javascript" src="collapsible.js"></script>
+  </body>
+</html>
